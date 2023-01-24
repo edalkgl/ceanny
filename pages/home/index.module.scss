@@ -219,3 +219,81 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .questionSection {
+    .questionList {
+      grid-template-columns: 1fr;
+    }
+  }
+  .servicesSection {
+    .serviceList {
+      grid-template-columns: 1fr;
+    }
+  }
+  .processSection {
+    .processList {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .headlineSection {
+    padding: 3rem 0;
+    background: #f5eedc;
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+    .content {
+      .btnSide {
+        display: grid;
+        width: 100%;
+      }
+      .title {
+        font-size: 30px;
+      }
+    }
+    .imageContainer {
+      display: none;
+    }
+  }
+  .storySection {
+    .contentSide {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      .btn {
+        display: grid;
+        width: 100%;
+      }
+    }
+    .wrapper {
+      padding: 0;
+      grid-template-columns: 1fr;
+      .imageSide {
+        .image {
+          position: relative;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}

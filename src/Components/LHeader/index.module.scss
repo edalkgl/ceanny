@@ -1,8 +1,4 @@
 .header {
-  // border-bottom: 1px solid #e1e1e1;
-}
-
-.header {
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -46,3 +42,44 @@
   background: black;
   color: #fff;
 }
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .header {
+    .wrapper {
+      height: auto;
+      flex-direction: column;
+      padding: 1rem 1.5rem;
+    }
+  }
+  .logoSide {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  .menuSide {
+    margin-right: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #e1e1e1;
+  }
+}
+
+// @media (max-width: 480px) {
+// }
+
+// @media (max-width: 320px) {
+// }
