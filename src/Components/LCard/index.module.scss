@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
+
+  .title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .text {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    background: #fff;
+    padding: 0.4rem 1rem;
+    margin-top: auto;
+  }
+}

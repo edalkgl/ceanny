@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 0;
+
+  .title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+  .desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c4c;
+    padding-top: 1rem;
+  }
+
+  &.type1 {
+    text-align: left;
+  }
+}

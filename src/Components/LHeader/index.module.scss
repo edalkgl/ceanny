@@ -1,0 +1,48 @@
+.header {
+  // border-bottom: 1px solid #e1e1e1;
+}
+
+.header {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 1.5rem;
+  }
+}
+
+.logoSide {
+  flex: 1 1;
+
+  .logoText {
+    font-size: 18px;
+    font-weight: 800;
+  }
+}
+
+.menuSide {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+
+  .item {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 1rem;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.subscribeSide {
+  background: black;
+  color: #fff;
+}
